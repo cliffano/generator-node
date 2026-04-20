@@ -1,0 +1,18 @@
+- params:
+    {{project_id}}: ../../../../../bin/{{project_id}}.js
+    base: ../../../../..
+
+- description: Command help should display help information
+  command: '{{{project_id}}} --help'
+  exitcode: 0
+  output: 'Usage: {{project_id}}'
+
+- description: Display command with lower transformation and no reverse
+  command: '{{{project_id}}} --config-file {base}/examples/{{project_id}}.yaml display --reverse false --transform lower'
+  exitcode: 0
+  output: 'Message:'
+
+- description: Display command with upper transformation and reverse
+  command: '{{{project_id}}} --config-file {base}/examples/{{project_id}}.yaml display --reverse true --transform upper'
+  exitcode: 0
+  output: 'Message:'

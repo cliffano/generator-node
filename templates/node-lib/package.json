@@ -1,0 +1,39 @@
+{
+  "name": "{{project_id}}",
+  "type": "module",
+  "description": "{{project_desc}}",
+  "keywords": [
+  ],
+  "version": "0.9.0-pre.0",
+  "homepage": "https://github.com/{{github_id}}/{{github_repo}}",
+  "author": "{{author_name}} <{{author_email}}>",
+  "contributors": [
+    "All contributors (https://github.com/{{github_id}}/{{github_repo}}/graphs/contributors)"
+  ],
+  "main": "./lib/{{project_id}}.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/{{github_id}}/{{github_repo}}.git"
+  },
+  "bugs": {
+    "url": "https://github.com/{{github_id}}/{{github_repo}}/issues"
+  },
+  "directories": {
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "dependencies": {
+    "bagofcli": "^2.5.0",
+    "yaml-js": "^0.3.1"
+  },
+  "devDependencies": {
+    "esmock": "^2.7.3",
+    "@sinonjs/referee": "^11.0.1",
+    "sinon": "^21.0.0"
+  },
+  "scripts": {},
+  "engines": {
+    "node": ">= 20.0.0"
+  },
+  "license": "MIT"
+}

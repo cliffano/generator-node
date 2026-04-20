@@ -16,9 +16,9 @@ PACKAGE_NAME=$(shell yq .package_name suntory.yml)
 AUTHOR ?= $(shell yq .author suntory.yml)
 
 $(info ################################################################)
-$(info Building node.js package using Suntory with user configurations:)
-$(info - Package name: ${PACKAGE_NAME})
-$(info - Author: ${AUTHOR})
+$(info Building node.js package using Suntory with user configurations...)
+$(info - Package name = ${PACKAGE_NAME})
+$(info - Author = ${AUTHOR})
 
 export PATH := node_modules/bin:$(PATH)
 
@@ -54,11 +54,11 @@ update-to-latest: update-to-version
 
 # Update Makefile to the main branch
 update-to-main:
-	curl https://raw.githubusercontent.com/cliffano/{{ project_id }}/main/src/Makefile-{{ project_id }} -o Makefile
+	curl https://raw.githubusercontent.com/cliffano/suntory/main/src/Makefile-suntory -o Makefile
 
-# Update Makefile to the version defined in TARGET_{{ project_id }}_VERSION parameter
+# Update Makefile to the version defined in TARGET_SUNTORY_VERSION parameter
 update-to-version:
-	curl https://raw.githubusercontent.com/cliffano/{{ project_id }}/$(TARGET_{{ project_id }}_VERSION)/src/Makefile-{{ project_id }} -o Makefile
+	curl https://raw.githubusercontent.com/cliffano/suntory/$(TARGET_SUNTORY_VERSION)/src/Makefile-suntory -o Makefile
 
 # Update dotfiles using the generator-python
 update-dotfiles: GENERATOR_COMPONENT = $(shell yq .generator.component piemaker.yml)
@@ -140,4 +140,4 @@ doc: stage
 
 ################################################################
 
-.PHONY: all ci clean complexity configurations coverage deps deps-extra-apt deps-upgrade rmdeps doc export export export install install-wheel lint name package package publish reinstall release-major release-minor release-patch stage style test test-examples test-integration uninstall update-to-latest update-to-latest update-to-main update-to-version
+.PHONY: all ci clean complexity configurations coverage deps deps-extra-apt deps-upgrade rmdeps doc export export export install install-wheel lint name package package publish reinstall release-major release-minor release-patch stage style test test-examples test-integration uninstall update-dotfiles update-to-latest update-to-latest update-to-main update-to-version

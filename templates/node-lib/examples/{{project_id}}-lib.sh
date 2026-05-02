@@ -6,4 +6,5 @@ cd ../
 npm link .
 cd examples/
 
+npm link {{project_id}}
 node _{{project_id}}.js

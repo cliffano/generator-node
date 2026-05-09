@@ -1,4 +1,4 @@
-SUNTORY_VERSION = 0.9.0-pre.0
+SUNTORY_VERSION = 0.10.0
 
 ################################################################
 # User configuration variables
@@ -9,10 +9,10 @@ SUNTORY_VERSION = 0.9.0-pre.0
 # package_name: somepackage
 # author: Some Author
 
-# PACKAGE_NAME is the name of the Python package
+# PACKAGE_NAME is the name of the Node.js package
 PACKAGE_NAME=$(shell yq .package_name suntory.yml)
 
-# AUTHOR is the author of the Python package
+# AUTHOR is the author of the Node.js package
 AUTHOR ?= $(shell yq .author suntory.yml)
 
 $(info ################################################################)
@@ -37,7 +37,7 @@ stage:
 clean:
 	bob clean
 
-# Retrieve the Pyhon package dependencies
+# Retrieve the Node.js package dependencies
 deps:
 	npm install -g bob@5.0.1
 	bob dep
@@ -88,7 +88,7 @@ complexity: stage
 	bob complexity
 
 test:
-	bob test
+	MOCHA_OPTIONS="--timeout 5000" bob test
 
 test-integration:
 	bob test-integration

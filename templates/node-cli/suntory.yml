@@ -1,6 +1,7 @@
 ---
 package_name: {{project_id}}
 author: {{author_name}}
+author_url: {{author_url}}
 generator:
   component: node-cli
   inputs:

@@ -1,7 +1,6 @@
 ---
 package_name: {{project_id}}
 author: {{author_name}}
-author_url: {{author_url}}
 generator:
   component: node-lib
   inputs:
@@ -10,5 +9,6 @@ generator:
     project_desc: {{project_desc}}
     author_name: {{author_name}}
     author_email: {{author_email}}
+    author_url: {{author_url}}
     github_id: {{github_id}}
     github_repo: {{github_repo}}

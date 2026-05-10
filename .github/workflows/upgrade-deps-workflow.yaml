@@ -5,13 +5,13 @@ jobs:
   build:
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
         with:
           token: ${{ secrets.STUDIO_GITHUB_TOKEN }}
       - uses: actions/setup-node@v4
         with:
-          node-version: '24'
-      - run: npm install -g bob@4
+          node-version: '26'
+      - run: npm install -g bob@5.0.1
       - run: bob updep
       - uses: cliffano/command-docker-action@v1.4.0
         with:

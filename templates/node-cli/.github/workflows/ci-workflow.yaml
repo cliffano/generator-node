@@ -9,7 +9,7 @@ jobs:
       matrix:
         # Available node versions: https://raw.githubusercontent.com/actions/node-versions/main/versions-manifest.json
         node: [ '20', '22', '24' ]
-    name: node ${{ matrix.node }}
+    name: node $\{{ matrix.node }}
     steps:
       - uses: actions/checkout@v5
         with:

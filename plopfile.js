@@ -73,6 +73,7 @@ export default function (plop) {
         templateFiles: [
           'templates/node-cli/.*/*/*/*',
           'templates/node-cli/.*/*/*',
+          'templates/node-cli/.*/*',
           'templates/node-cli/**/.*',
           'templates/node-cli/**/*'
         ],
@@ -91,6 +92,7 @@ export default function (plop) {
         templateFiles: [
           'templates/node-lib/.*/*/*/*',
           'templates/node-lib/.*/*/*',
+          'templates/node-lib/.*/*',
           'templates/node-lib/**/.*',
           'templates/node-lib/**/*'
         ],

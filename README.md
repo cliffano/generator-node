@@ -37,6 +37,8 @@ Both components will prompt you the following inputs:
 | Author Email | The email of the project author. |
 | Author URL | The author's website URL. |
 | GitHub ID | The GitHub ID of the project repo. |
+| GitHub Repository | The GitHub repository URL for the project. |
+| GitHub Actions token prefix | Prefix for the GitHub token secret used in GitHub Actions workflows. |
 
 ## Colophon
 

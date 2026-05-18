@@ -27,7 +27,8 @@ test-node-cli:
 		--author_email "blah+pakkun@cliffano.com" \
 		--author_url "https://github.com/pakkunbot" \
 		--github_id "pakkunbot" \
-		--github_repo "node-cli"
+		--github_repo "node-cli" \
+		--github_token_prefix "STUDIO"
 	cd stage/node-cli/ && make deps-extra-apt ci && \
 	  cd examples/ && ./nodecli-cli.sh
 
@@ -43,7 +44,8 @@ test-node-lib:
 		--author_email "blah+pakkun@cliffano.com" \
 		--author_url "https://github.com/pakkunbot" \
 		--github_id "pakkunbot" \
-		--github_repo "node-lib"
+		--github_repo "node-lib" \
+		--github_token_prefix "STUDIO"
 	cd stage/node-lib/ && make deps-extra-apt ci && \
 	  cd examples/
 

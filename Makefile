@@ -49,8 +49,8 @@ test-node-lib:
 	cd stage/node-lib/ && make deps-extra-apt ci && \
 	  cd examples/
 
-update-piemaker-to-latest:
+update-suntory-to-latest:
 	cd templates/node-cli && make update-to-latest
 	cd templates/node-lib && make update-to-latest
 
-.PHONY: ci clean clean-node-cli clean-node-lib stage deps generate-node-cli generate-node-lib test-node-cli test-node-lib update-piemaker-to-latest
+.PHONY: ci clean clean-node-cli clean-node-lib stage deps generate-node-cli generate-node-lib test-node-cli test-node-lib update-suntory-to-latest

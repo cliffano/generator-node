@@ -19,7 +19,7 @@ clean-node-cli:
 generate-node-cli: clean-node-cli
 	node_modules/.bin/plop node-cli
 
-test-node-cli:
+test-node-cli: clean-node-cli
 	node_modules/.bin/plop node-cli -- \
 	    --project_id "nodecli" \
 		--project_name "NodeCLI" \
@@ -43,7 +43,7 @@ clean-node-cli-partials:
 generate-node-cli-partials: clean-node-cli-partials
 	node_modules/.bin/plop node-cli-partials
 
-test-node-cli-partials:
+test-node-cli-partials: clean-node-cli-partials
 	node_modules/.bin/plop node-cli-partials -- \
 	    --project_id "nodecli" \
 		--project_name "NodeCLI" \
@@ -65,7 +65,7 @@ clean-node-lib:
 generate-node-lib: clean-node-lib
 	node_modules/.bin/plop node-lib
 
-test-node-lib:
+test-node-lib: clean-node-lib
 	node_modules/.bin/plop node-lib -- \
 	    --project_id "nodelib" \
 		--project_name "NodeLib" \
@@ -89,7 +89,7 @@ clean-node-lib-partials:
 generate-node-lib-partials: clean-node-lib-partials
 	node_modules/.bin/plop node-lib-partials
 
-test-node-lib-partials:
+test-node-lib-partials: clean-node-lib-partials
 	node_modules/.bin/plop node-lib-partials -- \
 	    --project_id "nodelib" \
 		--project_name "NodeLib" \

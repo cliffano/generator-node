@@ -1,11 +1,10 @@
-![Avatar](avatar.jpg)
+<!-- BEGIN:AVATAR -->
+To be populated by generator-node node-cli-partials
+<!-- END:AVATAR -->
 
-[![Build Status](https://github.com/{{github_id}}/{{github_repo}}/workflows/CI/badge.svg)](https://github.com/{{github_id}}/{{github_repo}}/actions?query=workflow%3ACI)
-[![Dependencies Status](https://img.shields.io/librariesio/release/npm/{{project_id}})](https://libraries.io/npm/{{project_id}})
-[![Code Scanning Status](https://github.com/{{github_id}}/{{github_repo}}/workflows/CodeQL/badge.svg)](https://github.com/{{github_id}}/{{github_repo}}/actions?query=workflow%3ACodeQL)
-[![Coverage Status](https://coveralls.io/repos/github/{{github_id}}/{{github_repo}}/badge.svg?branch=main)](https://coveralls.io/r/{{github_id}}/{{github_repo}}?branch=main)
-[![Security Status](https://snyk.io/test/github/{{github_id}}/{{github_repo}}/badge.svg)](https://snyk.io/test/github/{{github_id}}/{{github_repo}})
-[![Published Version](https://img.shields.io/npm/v/{{project_id}}.svg)](https://www.npmjs.com/package/{{project_id}})
+<!-- BEGIN:BADGES -->
+To be populated by generator-node node-cli-partials
+<!-- END:BADGES -->
 
 # {{project_name}}
 
@@ -41,11 +40,10 @@ Some example configuration files are available on [examples](examples) folder.
 
 ## Colophon
 
-[Developer's Guide](https://{{github_id}}.github.io/developers_guide.html#nodejs)
+<!-- BEGIN:DEVELOPERS_GUIDE -->
+To be populated by generator-node node-cli-partials
+<!-- END:DEVELOPERS_GUIDE -->
 
-Build reports:
-
-* [Code complexity report](https://{{github_id}}.github.io/{{project_id}}/complexity/plato/index.html)
-* [Unit tests report](https://{{github_id}}.github.io/{{project_id}}/test/mocha.txt)
-* [Test coverage report](https://{{github_id}}.github.io/{{project_id}}/coverage/c8/index.html)
-* [API Documentation](https://{{github_id}}.github.io/{{project_id}}/doc/jsdoc/index.html)
+<!-- BEGIN:BUILD_REPORTS -->
+To be populated by generator-node node-cli-partials
+<!-- END:BUILD_REPORTS -->

@@ -4,6 +4,7 @@
   "type": "module",
   "description": "",
   "devDependencies": {
+    "markdown-magic": "4.9.0",
     "plop": "4.0.5"
   }
 }

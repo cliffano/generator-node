@@ -87,6 +87,21 @@ export default function (plop) {
     ]
   });
 
+    plop.setGenerator('node-cli-partials', {
+    description: 'Node CLI partials template',
+    prompts: prompts,
+    actions: [
+      {
+        type: 'addMany',
+        destination: 'stage/node-cli-partials',
+        templateFiles: [
+          'templates/node-cli-partials/*'
+        ],
+        base: 'templates/node-cli-partials'
+      }
+    ]
+  });
+
   plop.setGenerator('node-lib', {
     description: 'Node library package template',
     prompts: prompts,
@@ -102,6 +117,21 @@ export default function (plop) {
           'templates/node-lib/**/*'
         ],
         base: 'templates/node-lib'
+      }
+    ]
+  });
+
+  plop.setGenerator('node-lib-partials', {
+    description: 'Node library partials template',
+    prompts: prompts,
+    actions: [
+      {
+        type: 'addMany',
+        destination: 'stage/node-lib-partials',
+        templateFiles: [
+          'templates/node-lib-partials/*'
+        ],
+        base: 'templates/node-lib-partials'
       }
     ]
   });

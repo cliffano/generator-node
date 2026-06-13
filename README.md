@@ -21,11 +21,15 @@ All components are built using [Suntory](https://github.com/cliffano/suntory).
 
 Generate node.js CLI project:
 
-    make generate-node-cli
+```
+make generate-node-cli
+```
 
 Generate node.js library project:
 
-    make generate-node-lib
+```
+make generate-node-lib
+```
 
 Both components will prompt you the following inputs:
 

@@ -5,3 +5,4 @@ Build reports:
 * [Test coverage report](https://{{github_id}}.github.io/{{project_id}}/coverage/c8/index.html)
 * [Integration tests report](https://{{github_id}}.github.io/{{project_id}}/test-integration/cmdt.txt)
 * [API Documentation](https://{{github_id}}.github.io/{{project_id}}/doc/jsdoc/index.html)
+

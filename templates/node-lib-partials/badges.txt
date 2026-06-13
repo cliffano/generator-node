@@ -1,4 +1,4 @@
-svg)](https://github.com/{{github_id}}/{{github_repo}}/actions?query=workflow%3ACI)
+[![Build Status](https://github.com/{{github_id}}/{{github_repo}}/workflows/CI/badge.svg)](https://github.com/{{github_id}}/{{github_repo}}/actions?query=workflow%3ACI)
 [![Dependencies Status](https://img.shields.io/librariesio/release/npm/{{project_id}})](https://libraries.io/npm/{{project_id}})
 [![Code Scanning Status](https://github.com/{{github_id}}/{{github_repo}}/workflows/CodeQL/badge.svg)](https://github.com/{{github_id}}/{{github_repo}}/actions?query=workflow%3ACodeQL)
 [![Coverage Status](https://coveralls.io/repos/github/{{github_id}}/{{github_repo}}/badge.svg?branch=main)](https://coveralls.io/r/{{github_id}}/{{github_repo}}?branch=main)

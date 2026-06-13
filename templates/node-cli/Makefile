@@ -1,4 +1,4 @@
-SUNTORY_VERSION = 0.12.1-pre.0
+SUNTORY_VERSION = 1.0.0
 
 ################################################################
 # User configuration variables
@@ -154,7 +154,7 @@ test:
 	MOCHA_OPTIONS="--timeout 5000" bob test
 
 test-integration:
-	bob test-integration
+	MOCHA_OPTIONS="--timeout 5000" bob test-integration
 
 test-examples:
 	mkdir -p stage/test-examples/
@@ -164,7 +164,7 @@ test-examples:
 	done
 
 coverage:
-	bob coverage
+	MOCHA_OPTIONS="--timeout 5000" bob coverage
 
 ################################################################
 # Release targets

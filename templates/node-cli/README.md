@@ -18,24 +18,34 @@ To be populated by generator-node node-cli-partials
 
 Create a configuration file, e.g. `{{project_id}}.yaml`:
 
-    ---
-    text: Hello World
+```yaml
+---
+text: Hello World
+```
 
 Run {{project_id}} with display command:
 
-    {{project_id}} display
+```bash
+{{project_id}} display
+```
 
 Run {{project_id}} with specified config file:
 
-    {{project_id}} --config-file {{project_id}}.yaml display
+```bash
+{{project_id}} --config-file {{project_id}}.yaml display
+```
 
 Run {{project_id}} with specified config file and custom flags:
 
-    {{project_id}} --config-file {{project_id}}.yaml display --reverse true --transform upper
+```bash
+{{project_id}} --config-file {{project_id}}.yaml display --reverse true --transform upper
+```
 
 Show help guide:
 
-    {{project_id}} --help
+```bash
+{{project_id}} --help
+```
 
 ## Configuration
 

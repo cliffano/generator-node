@@ -12,22 +12,28 @@ To be populated by generator-node node-cli-partials
 
 ## Installation
 
-    npm install {{project_id}}
+```bash
+npm install {{project_id}}
+```
 
 ## Usage
 
 Create a configuration file, e.g. `{{project_id}}.yaml`:
 
-    ---
-    text: Hello World
+```yaml
+---
+text: Hello World
+```
 
 Create {{project_id}} object and run it:
 
-    import Display from '{{project_id}}';
+```javascript
+import Display from '{{project_id}}';
 
-    const display = new Display('{{project_id}}.yaml');
-    const text = display.format(false, 'lower');
-    console.log(text);
+const display = new Display('{{project_id}}.yaml');
+const text = display.format(false, 'lower');
+console.log(text);
+```
 
 ## Configuration
 

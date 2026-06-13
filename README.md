@@ -13,7 +13,9 @@ It provides the following components:
 | Component | Description |
 |-----------|-------------|
 | node-cli | Generate a node.js CLI project with executable command. |
+| node-cli-partials | Generate README partial snippets for Node CLI projects. |
 | node-lib | Generate a node.js library project. |
+| node-lib-partials | Generate README partial snippets for Node library projects. |
 
 All components are built using [Suntory](https://github.com/cliffano/suntory).
 
@@ -25,13 +27,25 @@ Generate node.js CLI project:
 make generate-node-cli
 ```
 
+Generate node.js CLI partial snippets:
+
+```
+make generate-node-cli-partials
+```
+
 Generate node.js library project:
 
 ```
 make generate-node-lib
 ```
 
-Both components will prompt you the following inputs:
+Generate node.js library partial snippets:
+
+```
+make generate-node-lib-partials
+```
+
+All components will prompt you the following inputs:
 
 | Prompt | Description |
 |--------|-------------|

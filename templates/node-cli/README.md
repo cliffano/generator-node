@@ -12,7 +12,9 @@ To be populated by generator-node node-cli-partials
 
 ## Installation
 
-    npm install -g {{project_id}}
+```bash
+npm install -g {{project_id}}
+```
 
 ## Usage
 

@@ -1,8 +1,12 @@
+<!-- BEGIN:AVATAR -->
 ![Avatar](avatar.jpg)
+<!-- END:AVATAR -->
 
+<!-- BEGIN:BADGES -->
 [![Build Status](https://github.com/cliffano/generator-node/workflows/CI/badge.svg)](https://github.com/cliffano/generator-node/actions?query=workflow%3ACI)
 [![Code Scanning Status](https://github.com/cliffano/generator-node/workflows/CodeQL/badge.svg)](https://github.com/cliffano/generator-node/actions?query=workflow%3ACodeQL)
 [![Security Status](https://snyk.io/test/github/cliffano/generator-node/badge.svg)](https://snyk.io/test/github/cliffano/generator-node)
+<!-- END:BADGES -->
 
 # Generator Node
 

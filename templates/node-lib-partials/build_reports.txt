@@ -1,8 +1,8 @@
 Build reports:
 
-* [Code complexity report](https://{{github_id}}.github.io/{{project_id}}/complexity/plato/index.html)
-* [Unit tests report](https://{{github_id}}.github.io/{{project_id}}/test/mocha.txt)
-* [Test coverage report](https://{{github_id}}.github.io/{{project_id}}/coverage/c8/index.html)
-* [Integration tests report](https://{{github_id}}.github.io/{{project_id}}/test-integration/mocha.txt)
-* [API Documentation](https://{{github_id}}.github.io/{{project_id}}/doc/jsdoc/index.html)
+* [Code complexity report](https://{{github_id}}.github.io/{{github_repo}}/complexity/plato/index.html)
+* [Unit tests report](https://{{github_id}}.github.io/{{github_repo}}/test/mocha.txt)
+* [Test coverage report](https://{{github_id}}.github.io/{{github_repo}}/coverage/c8/index.html)
+* [Integration tests report](https://{{github_id}}.github.io/{{github_repo}}/test-integration/mocha.txt)
+* [API Documentation](https://{{github_id}}.github.io/{{github_repo}}/doc/jsdoc/index.html)
 

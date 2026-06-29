@@ -1,1 +1,1 @@
-[Developer's Guide](https://cliffano.github.io/developers-guide-nodejs.html)
+[Developer's Guide](https://{{github_id}}.github.io/developers-guide-nodejs.html)

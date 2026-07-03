@@ -4,7 +4,7 @@
 ################################################################
 
 # Suntory's version number
-SUNTORY_VERSION = 1.3.0
+SUNTORY_VERSION = 1.4.0
 
 ################################################################
 # User configuration variables
@@ -59,7 +59,7 @@ endef
 
 # CI target to be executed by CI/CD tool
 all: ci
-ci: clean deps style lint test coverage complexity doc package reinstall test-integration
+ci: clean style lint test coverage complexity doc package reinstall test-integration
 
 # Ensure stage directory exists
 stage:
@@ -69,7 +69,7 @@ stage:
 clean:
 	bob clean
 
-# Retrieve the Pyhon package dependencies
+# Retrieve the Node.js package dependencies
 deps:
 	npm install -g bob@5.2.1
 	bob dep
@@ -78,6 +78,7 @@ deps:
 deps-extra-apt:
 	apt-get update
 	apt-get install -y markdownlint
+	$(call run_hook,x-post-deps-extra-apt)
 
 deps-upgrade:
 	bob updep

@@ -1,5 +1,5 @@
 ---
-description: "Node.js code conventions and standard practices for Node.js projects"
+description: "Code conventions and standard practices for Node.js projects"
 applyTo: "**/*.js"
 ---
 

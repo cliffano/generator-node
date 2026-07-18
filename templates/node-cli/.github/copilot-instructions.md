@@ -4,7 +4,9 @@ description: "Standard Node.js project conventions and tooling using Suntory"
 
 # Node.js Project Standards
 
-This repository contains a Node.js project following a **unified standard** for tooling, build automation, and coding conventions. All projects share the same tooling stack and conventions to ensure consistency and maintainability. The key components of the standard include:
+This repository contains a Node.js project following a unified standard for tooling, build automation, and coding conventions. All projects share the same tooling stack and conventions to ensure consistency and maintainability.
+
+The key components of the standard include:
 
 - Build automation (Suntory)
 - Project definition and dependency management (npm)

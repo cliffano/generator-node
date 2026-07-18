@@ -87,7 +87,7 @@ export default function (plop) {
     ]
   });
 
-    plop.setGenerator('node-cli-partials', {
+  plop.setGenerator('node-cli-partials', {
     description: 'Node CLI partials template',
     prompts: prompts,
     actions: [

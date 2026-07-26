@@ -25,7 +25,7 @@ test-node-cli: clean-node-cli
 		--project_name "NodeCLI" \
 		--project_desc "A sample Node CLI project" \
 		--author_name "Pakkun" \
-		--author_email "blah+pakkun@cliffano.com" \
+		--author_email "pakkunbot@users.noreply.github.com" \
 		--author_url "https://github.com/pakkunbot" \
 		--github_id "pakkunbot" \
 		--github_repo "node-cli" \
@@ -49,7 +49,7 @@ test-node-cli-partials: clean-node-cli-partials
 		--project_name "NodeCLI" \
 		--project_desc "A sample Node CLI project" \
 		--author_name "Pakkun" \
-		--author_email "blah+pakkun@cliffano.com" \
+		--author_email "pakkunbot@users.noreply.github.com" \
 		--author_url "https://github.com/pakkunbot" \
 		--github_id "pakkunbot" \
 		--github_repo "node-cli" \
@@ -71,7 +71,7 @@ test-node-lib: clean-node-lib
 		--project_name "NodeLib" \
 		--project_desc "A sample Node library project" \
 		--author_name "Pakkun" \
-		--author_email "blah+pakkun@cliffano.com" \
+		--author_email "pakkunbot@users.noreply.github.com" \
 		--author_url "https://github.com/pakkunbot" \
 		--github_id "pakkunbot" \
 		--github_repo "node-lib" \
@@ -95,7 +95,7 @@ test-node-lib-partials: clean-node-lib-partials
 		--project_name "NodeLib" \
 		--project_desc "A sample Node library project" \
 		--author_name "Pakkun" \
-		--author_email "blah+pakkun@cliffano.com" \
+		--author_email "pakkunbot@users.noreply.github.com" \
 		--author_url "https://github.com/pakkunbot" \
 		--github_id "pakkunbot" \
 		--github_repo "node-lib" \

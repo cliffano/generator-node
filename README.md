@@ -27,25 +27,25 @@ All components are built using [Suntory](https://github.com/cliffano/suntory).
 
 Generate node.js CLI project:
 
-```
+```shell
 make generate-node-cli
 ```
 
 Generate node.js CLI partial snippets:
 
-```
+```shell
 make generate-node-cli-partials
 ```
 
 Generate node.js library project:
 
-```
+```shell
 make generate-node-lib
 ```
 
 Generate node.js library partial snippets:
 
-```
+```shell
 make generate-node-lib-partials
 ```
 
@@ -64,6 +64,15 @@ All components will prompt you the following inputs:
 | GitHub Actions token prefix | Prefix for the GitHub token secret used in GitHub Actions workflows. |
 
 ## Colophon
+
+<!-- BEGIN:DEVELOPERS_GUIDE -->
+[Developer's Guide](https://cliffano.github.io/developers-guide-makefile.html)
+<!-- END:DEVELOPERS_GUIDE -->
+
+<!-- BEGIN:BUILD_REPORTS -->
+Build reports:
+
+<!-- END:BUILD_REPORTS -->
 
 Related Projects:
 

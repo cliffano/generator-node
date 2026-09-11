@@ -1,0 +1,15 @@
+---
+package_name: nodecli
+author: Pakkun
+generator:
+  component: node-cli
+  inputs:
+    project_id: nodecli
+    project_name: NodeCLI
+    project_desc: A sample Node CLI project
+    author_name: Pakkun
+    author_email: pakkunbot@users.noreply.github.com
+    author_url: https://github.com/pakkunbot
+    github_id: pakkunbot
+    github_repo: node-cli
+    github_token_prefix: STUDIO

@@ -63,6 +63,19 @@ All components will prompt you the following inputs:
 | GitHub Repository | The GitHub repository URL for the project. |
 | GitHub Actions token prefix | Prefix for the GitHub token secret used in GitHub Actions workflows. |
 
+## Usage With Config File
+
+Each component also has a `-with-config` target that skips the interactive prompts by reading the inputs from a Suntory YAML config file. See [examples/](examples/) for sample config files for each component.
+
+Pass the config file path via the `GENERATOR_CONFIG` variable, it defaults to `suntory.yml`:
+
+```shell
+make generate-node-cli-with-config GENERATOR_CONFIG=path/to/suntory.yml
+make generate-node-cli-partials-with-config GENERATOR_CONFIG=path/to/suntory.yml
+make generate-node-lib-with-config GENERATOR_CONFIG=path/to/suntory.yml
+make generate-node-lib-partials-with-config GENERATOR_CONFIG=path/to/suntory.yml
+```
+
 ## Colophon
 
 <!-- BEGIN:DEVELOPERS_GUIDE -->

@@ -1,7 +1,7 @@
 "use strict";
 /**
  * {{project_id}}
- * {{underline "=" project_id.length}}
+ * {{{underline "=" project_id.length}}}
  * {{project_desc}}
  */
 import bag from 'bagofcli';

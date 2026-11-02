@@ -9,3 +9,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - Initial version
+
+### Fixed
+- Skip GitHub Pages publishing in generated CI workflows on pull_request events, since secrets aren't available to fork PRs
